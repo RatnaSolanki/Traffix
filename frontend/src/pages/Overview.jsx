@@ -7,7 +7,7 @@ import {
   XAxis, YAxis, CartesianGrid,
   Tooltip, ResponsiveContainer, Legend, AreaChart, Area
 } from 'recharts';
-import { useTraffic } from '../hooks/useTraffic';
+import { useTraffic } from '../hooks/UseTraffic';
 import JunctionMap from './JunctionMap';
 
 // ─── Severity config ──────────────────────────────────────────────────────────

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Pause, Play, RotateCcw, ChevronDown, Cpu, Activity, Zap, AlertTriangle } from 'lucide-react';
-import { useTraffic } from '../hooks/useTraffic';
+import { useTraffic } from '../hooks/UseTraffic';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 const SIG_COLOR = { green: '#10b981', yellow: '#f59e0b', red: '#ef4444' };
