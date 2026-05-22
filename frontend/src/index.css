@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0a0f1c;
+    color: #f3f4f6;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-traffix-card border border-traffix-border rounded-xl p-5 transition-all duration-300;
+  }
+  .card-hover:hover {
+    @apply border-gray-600 shadow-lg;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent;
+  }
+}
+
